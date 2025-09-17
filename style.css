@@ -16,18 +16,18 @@ p {
 }
 
 /* Always wright you media queries at the bottom of your CSS file so it follows every style element*/
-@media (max-width: 600px) { /*desktop first*/
+
+@media (min-widht: px) {
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+} /*mobile first*/
+
+@media (max-width: 600px) {
+  /*desktop*/
   p {
     font-size: 1.2rem;
     line-height: 1.2;
   }
-
 }
-
-@media (min-widht: 600px) {
-    p {
-        font-size: 1.5rem;
-        line-height: 1.5;
-    }
-} /*mobile/
-  
