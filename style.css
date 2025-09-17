@@ -35,7 +35,7 @@ p {
 
 /* When the browser is at least 600px wide, change the background color and text color of the body */ 
 
-@media (min-width: 600px) {
+@media (min-width: 600px) and (max-width: 900px) {
   body {
     background-color: lightblue;
     color: black;   
